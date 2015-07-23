@@ -1,20 +1,15 @@
 /*global requirejs:true*/
 'use strict';
 
-var REQJS_PLUGINS = 'https://cdnjs.cloudflare.com/ajax/libs/requirejs-plugins/1.0.3/';
-
 requirejs.config({
-    baseUrl: 'javascript',
-    //except, if the module ID starts with "app",
-    //load it from the js/app directory. paths
-    //config is relative to the baseUrl, and
-    //never includes a ".js" extension since
-    //the paths config could be for a directory.
+    // i've got more stuff coming from CDN than not
+    baseUrl: 'https://cdnjs.cloudflare.com/ajax/libs/',
     paths: {
         // require.js google plugin
-        'async': REQJS_PLUGINS +'async.min',
-        'propertyParser': REQJS_PLUGINS + 'propertyParser.min',
-        'goog': REQJS_PLUGINS +'goog.min'
+        'async': 'requirejs-plugins/1.0.3/async.min',
+        'propertyParser': 'requirejs-plugins/1.0.3/propertyParser.min',
+        'goog': 'requirejs-plugins/1.0.3/goog.min',
+        'json': 'require-text/2.0.12/text.min'
     },
 });
 
@@ -34,9 +29,9 @@ requirejs(
 
         // Set chart options
         var options = {
-            'title':'How Much Pizza I Ate Last Night',
-            'width':400,
-            'height':300
+            'title': 'How Much Pizza I Ate Last Night',
+            'width': 400,
+            'height': 300
         };
 
         // Instantiate and draw our chart, passing in some options.
