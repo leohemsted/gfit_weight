@@ -69,9 +69,16 @@ requirejs(
                     // dates are zero indexed just because
                     min: getMinDate(points),
                     max: getMaxDate(points),
-
-                    // the chart deals only in
                 },
+            },
+            trendlines: {
+                0: {
+                    // type: 'polynomial',
+                    // degree: 2,
+                    lineWidth: 5,
+                    opacity: 0.5,
+                    color: 'green',
+                }
             },
             legend: {position: 'none'},
         };
