@@ -3,19 +3,26 @@
 
 requirejs.config({
     // i've got more stuff coming from CDN than not
-    baseUrl: 'https://cdnjs.cloudflare.com/ajax/libs/',
     paths: {
-        // require.js google plugin
-        'async': 'requirejs-plugins/1.0.3/async.min',
-        'propertyParser': 'requirejs-plugins/1.0.3/propertyParser.min',
-        'goog': 'requirejs-plugins/1.0.3/goog.min',
-        'json': 'require-text/2.0.12/text.min'
+        'lib': 'https://cdnjs.cloudflare.com/ajax/libs/'
     },
+    map: {
+        '*': {
+            'async': 'lib/requirejs-plugins/1.0.3/async.min',
+            'propertyParser': 'lib/requirejs-plugins/1.0.3/propertyParser.min',
+            'goog': 'lib/requirejs-plugins/1.0.3/goog.min',
+            'json': 'lib/require-text/2.0.12/text.min'
+        }
+    }
 });
 
 requirejs(
-    ['goog!visualization,1,packages:[corechart]'],
-    function () {
+    [
+        'goog!visualization,1,packages:[corechart]',
+        'json!../data.json'
+    ],
+    // google packages just shove themselves onto global scope, _goog is always undef :(
+    function (_goog, raw_data) {
         var data = new window.google.visualization.DataTable();
         data.addColumn('string', 'Topping');
         data.addColumn('number', 'Slices');
