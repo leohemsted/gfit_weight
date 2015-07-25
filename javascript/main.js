@@ -1,5 +1,4 @@
 /*global requirejs:true*/
-'use strict';
 
 requirejs.config({
     // i've got more stuff coming from CDN than not
@@ -26,8 +25,12 @@ requirejs(
     ],
     // google doesn't have AMD so we need to access it via window.google
     function (raw_data, moment) {
+        'use strict';
         var points = formatData(raw_data);
         var data = new window.google.visualization.DataTable();
+        var dates = points.map(function(p){return p[0];});
+        var weights = points.map(function(p){return p[1];});
+        var avgs = rollingAverage(points);
         var DAYS_EITHER_SIDE = 10;
 
         function formatData(raw_data) {
@@ -44,16 +47,26 @@ requirejs(
             });
         }
 
+        function rollingAverage(points) {
+            var array = [null, null, null, null];
+            for (var i = 0; i < points.length; i++) {
+                array.push(Math.random() * 10 + 90);
+            }
+            return array;
+        }
+
         function getMinDate(points) {
             return moment(points[0][0]).subtract(DAYS_EITHER_SIDE, 'days').toDate();
         }
         function getMaxDate(points) {
             return moment(points.slice(-1)[0][0]).add(DAYS_EITHER_SIDE, 'days').toDate();
         }
-
         data.addColumn('datetime', 'Date');
         data.addColumn('number', 'Weight');
-        data.addRows(points);
+        data.addColumn('number', 'rollingAvg');
+        for (var i = 0; i < dates.length; i++) {
+            data.addRow([dates[i], weights[i], avgs[i]]);
+        }
 
         // Set chart options
         var options = {
@@ -71,6 +84,14 @@ requirejs(
                     max: getMaxDate(points),
                 },
             },
+            series: {
+                0: {
+                    type: 'scatter'
+                },
+                1: {
+                    type: 'line',
+                },
+            },
             trendlines: {
                 0: {
                     // type: 'polynomial',
@@ -84,7 +105,7 @@ requirejs(
         };
 
         // Instantiate and draw our chart, passing in some options.
-        var chart = new window.google.visualization.ScatterChart(
+        var chart = new window.google.visualization.ComboChart(
             document.getElementById('chart_div')
         );
         chart.draw(data, options);
