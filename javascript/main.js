@@ -68,7 +68,7 @@ requirejs(
             var avgs = [];
             points.forEach(function(point){
                 // using every for its shortcut functionality
-                var startDate = point[0].subtract(10, 'days');
+                var startDate = point[0].clone().subtract(10, 'days');
                 var avg = null;
                 var nearbyPts = points.reduce(function(nearbyPts, altPt) {
                     var afterStart = altPt[0] >= startDate;
@@ -90,10 +90,10 @@ requirejs(
         }
 
         function getMinDate(points) {
-            return points[0][0].subtract(DAYS_EITHER_SIDE, 'days');
+            return points[0][0].clone().subtract(DAYS_EITHER_SIDE, 'days');
         }
         function getMaxDate(points) {
-            return points.slice(-1)[0][0].add(DAYS_EITHER_SIDE, 'days');
+            return points.slice(-1)[0][0].clone().add(DAYS_EITHER_SIDE, 'days');
         }
         data.addColumn('datetime', 'Date');
         data.addColumn('number', 'Weight');
