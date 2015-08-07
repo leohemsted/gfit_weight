@@ -1,6 +1,6 @@
 {
   "minStartTimeNs": "1430434800000000000",
-  "maxEndTimeNs": "1438762404000000000",
+  "maxEndTimeNs": "2000000000000000000",
   "dataSourceId": "derived:com.google.weight:com.google.android.gms:merge_weight",
   "point": [
     {
@@ -490,6 +490,18 @@
       "value": [
         {
           "fpVal": 90.355552673339844
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1438849720054",
+      "startTimeNanos": "1438848604711000000",
+      "endTimeNanos": "1438848604711000000",
+      "value": [
+        {
+          "fpVal": 90.083396911621094
         }
       ],
       "dataTypeName": "com.google.weight",
