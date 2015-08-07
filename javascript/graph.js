@@ -21,9 +21,7 @@ requirejs(
             var lbs = kg * 2.20462;
             var st = Math.floor(lbs / 14);
             lbs = lbs % 14;
-            return '' + st + 'st. ' + lbs.toFixed(1) + 'lb.';
-
-
+            return '' + st + 'st, ' + lbs.toFixed(1) + 'lb.';
         }
 
         function formatData(raw_data) {
