@@ -105,15 +105,15 @@ requirejs(
                 },
                 1: {
                     type: 'line',
+                    tooltip: false
                 },
             },
             trendlines: {
                 0: {
-                    // type: 'polynomial',
-                    // degree: 2,
                     lineWidth: 5,
                     opacity: 0.5,
                     color: 'green',
+                    tooltip: false
                 }
             },
             legend: {position: 'none'},
