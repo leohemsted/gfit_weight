@@ -782,6 +782,78 @@
       ],
       "dataTypeName": "com.google.weight",
       "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441457930402",
+      "startTimeNanos": "1441457922483000000",
+      "endTimeNanos": "1441457922483000000",
+      "value": [
+        {
+          "fpVal": 89.085494995117188
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441531670564",
+      "startTimeNanos": "1441530334809000000",
+      "endTimeNanos": "1441530334809000000",
+      "value": [
+        {
+          "fpVal": 89.629806518554688
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441616707329",
+      "startTimeNanos": "1441613359689000000",
+      "endTimeNanos": "1441613359689000000",
+      "value": [
+        {
+          "fpVal": 89.266937255859375
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441701001416",
+      "startTimeNanos": "1441698522373000000",
+      "endTimeNanos": "1441698522373000000",
+      "value": [
+        {
+          "fpVal": 89.629806518554688
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441789955983",
+      "startTimeNanos": "1441785538341000000",
+      "endTimeNanos": "1441785538341000000",
+      "value": [
+        {
+          "fpVal": 89.085494995117188
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441872786294",
+      "startTimeNanos": "1441871847496000000",
+      "endTimeNanos": "1441871847496000000",
+      "value": [
+        {
+          "fpVal": 88.904060363769531
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
     }
   ]
 }
