@@ -854,6 +854,258 @@
       ],
       "dataTypeName": "com.google.weight",
       "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1441959196691",
+      "startTimeNanos": "1441957844477000000",
+      "endTimeNanos": "1441957844477000000",
+      "value": [
+        {
+          "fpVal": 88.269027709960938
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442221828660",
+      "startTimeNanos": "1442218345565000000",
+      "endTimeNanos": "1442218345565000000",
+      "value": [
+        {
+          "fpVal": 90.627708435058594
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442304112473",
+      "startTimeNanos": "1442302935942000000",
+      "endTimeNanos": "1442302935942000000",
+      "value": [
+        {
+          "fpVal": 90.174118041992188
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442394794977",
+      "startTimeNanos": "1442391176101000000",
+      "endTimeNanos": "1442391176101000000",
+      "value": [
+        {
+          "fpVal": 89.266937255859375
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442478441689",
+      "startTimeNanos": "1442476954779000000",
+      "endTimeNanos": "1442476954779000000",
+      "value": [
+        {
+          "fpVal": 89.539085388183594
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442570239236",
+      "startTimeNanos": "1442565283835000000",
+      "endTimeNanos": "1442565283835000000",
+      "value": [
+        {
+          "fpVal": 88.994781494140625
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442652050640",
+      "startTimeNanos": "1442650997390000000",
+      "endTimeNanos": "1442650997390000000",
+      "value": [
+        {
+          "fpVal": 89.357650756835938
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442826794546",
+      "startTimeNanos": "1442821013907000000",
+      "endTimeNanos": "1442821013907000000",
+      "value": [
+        {
+          "fpVal": 90.174118041992188
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442970801916",
+      "startTimeNanos": "1442912880000000000",
+      "endTimeNanos": "1442912880000000000",
+      "value": [
+        {
+          "fpVal": 88.994781494140625
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1442999595116",
+      "startTimeNanos": "1442993953027000000",
+      "endTimeNanos": "1442993953027000000",
+      "value": [
+        {
+          "fpVal": 89.085494995117188
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443172395843",
+      "startTimeNanos": "1443169703164000000",
+      "endTimeNanos": "1443169703164000000",
+      "value": [
+        {
+          "fpVal": 88.994781494140625
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443264500043",
+      "startTimeNanos": "1443261863543000000",
+      "endTimeNanos": "1443261863543000000",
+      "value": [
+        {
+          "fpVal": 88.450469970703125
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443440700048",
+      "startTimeNanos": "1443471240000000000",
+      "endTimeNanos": "1443471240000000000",
+      "value": [
+        {
+          "fpVal": 87.996871948242188
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443514380532",
+      "startTimeNanos": "1443513364942000000",
+      "endTimeNanos": "1443513364942000000",
+      "value": [
+        {
+          "fpVal": 88.359748840332031
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443780163085",
+      "startTimeNanos": "1443598560000000000",
+      "endTimeNanos": "1443598560000000000",
+      "value": [
+        {
+          "fpVal": 88.450469970703125
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443780163085",
+      "startTimeNanos": "1443771424548000000",
+      "endTimeNanos": "1443771424548000000",
+      "value": [
+        {
+          "fpVal": 88.450469970703125
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443873584753",
+      "startTimeNanos": "1443870475371000000",
+      "endTimeNanos": "1443870475371000000",
+      "value": [
+        {
+          "fpVal": 88.359748840332031
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1443960792566",
+      "startTimeNanos": "1443958518703000000",
+      "endTimeNanos": "1443958518703000000",
+      "value": [
+        {
+          "fpVal": 87.906158447265625
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1444032794552",
+      "startTimeNanos": "1444030151881000000",
+      "endTimeNanos": "1444030151881000000",
+      "value": [
+        {
+          "fpVal": 88.359748840332031
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1444122797108",
+      "startTimeNanos": "1444121503068000000",
+      "endTimeNanos": "1444121503068000000",
+      "value": [
+        {
+          "fpVal": 87.815437316894531
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1444205291697",
+      "startTimeNanos": "1444202444035000000",
+      "endTimeNanos": "1444202444035000000",
+      "value": [
+        {
+          "fpVal": 87.452568054199219
+        }
+      ],
+      "dataTypeName": "com.google.weight",
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input"
     }
   ]
 }
