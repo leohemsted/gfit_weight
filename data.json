@@ -1209,7 +1209,8 @@
       "endTimeNanos": "1445328406149000000",
       "value": [
         {
-          "fpVal": 92.7142333984375
+          "NOTE": "Lowered from 14st8.4lb to 13st8.4lb",
+          "fpVal": 86.36398724800002
         }
       ],
       "dataTypeName": "com.google.weight",
@@ -1473,7 +1474,8 @@
       "endTimeNanos": "1449039560330000000",
       "value": [
         {
-          "fpVal": 82.100181579589844
+          "NOTE": "Manually edited - raised from 12st13lb to 13st13lb",
+          "fpVal": 88.45051215000001
         }
       ],
       "dataTypeName": "com.google.weight",
