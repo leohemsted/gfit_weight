@@ -1576,6 +1576,186 @@
       ],
       "dataTypeName": "com.google.weight",
       "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    },
+    {
+      "modifiedTimeMillis": "1451476695347", 
+      "startTimeNanos": "1451474065483000000", 
+      "endTimeNanos": "1451474065483000000", 
+      "value": [
+        {
+          "fpVal": 88.813339233398438
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1451872863389", 
+      "startTimeNanos": "1451820240000000000", 
+      "endTimeNanos": "1451820240000000000", 
+      "value": [
+        {
+          "fpVal": 87.906158447265625
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452165115619", 
+      "startTimeNanos": "1452076140000000000", 
+      "endTimeNanos": "1452076140000000000", 
+      "value": [
+        {
+          "fpVal": 88.904060363769531
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452165115655", 
+      "startTimeNanos": "1452162575236000000", 
+      "endTimeNanos": "1452162575236000000", 
+      "value": [
+        {
+          "fpVal": 88.904060363769531
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452247712547", 
+      "startTimeNanos": "1452245007491000000", 
+      "endTimeNanos": "1452245007491000000", 
+      "value": [
+        {
+          "fpVal": 88.269027709960938
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452465327805", 
+      "startTimeNanos": "1452343920000000000", 
+      "endTimeNanos": "1452343920000000000", 
+      "value": [
+        {
+          "fpVal": 88.087593078613281
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452465327805", 
+      "startTimeNanos": "1452427200000000000", 
+      "endTimeNanos": "1452427200000000000", 
+      "value": [
+        {
+          "fpVal": 87.906158447265625
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452637879798", 
+      "startTimeNanos": "1452589200000000000", 
+      "endTimeNanos": "1452589200000000000", 
+      "value": [
+        {
+          "fpVal": 88.178314208984375
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452698816222", 
+      "startTimeNanos": "1452677160000000000", 
+      "endTimeNanos": "1452677160000000000", 
+      "value": [
+        {
+          "fpVal": 88.087593078613281
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1452767210767", 
+      "startTimeNanos": "1452766369087000000", 
+      "endTimeNanos": "1452766369087000000", 
+      "value": [
+        {
+          "fpVal": 87.361846923828125
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1453296230030", 
+      "startTimeNanos": "1453283697652000000", 
+      "endTimeNanos": "1453283697652000000", 
+      "value": [
+        {
+          "fpVal": 87.906158447265625
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1453414550474", 
+      "startTimeNanos": "1453370040000000000", 
+      "endTimeNanos": "1453370040000000000", 
+      "value": [
+        {
+          "fpVal": 87.361846923828125
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1453580173146", 
+      "startTimeNanos": "1453559445856000000", 
+      "endTimeNanos": "1453559445856000000", 
+      "value": [
+        {
+          "fpVal": 87.271125793457031
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1453716840321", 
+      "startTimeNanos": "1453715769301000000", 
+      "endTimeNanos": "1453715769301000000", 
+      "value": [
+        {
+          "fpVal": 87.634002685546875
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
+    }, 
+    {
+      "modifiedTimeMillis": "1453888803142", 
+      "startTimeNanos": "1453885911198000000", 
+      "endTimeNanos": "1453885911198000000", 
+      "value": [
+        {
+          "fpVal": 88.087593078613281
+        }
+      ], 
+      "dataTypeName": "com.google.weight", 
+      "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:OnePlus:ONE E1003:908605e3:user_input"
     }
   ]
 }
